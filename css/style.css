@@ -290,10 +290,28 @@ label {
   justify-content: center;
   align-items: center;
   padding: 10px;
-
   gap: 10px;
   background-color: #d92462;
   color: #fff;
   border: none;
   border-radius: 6px;
+}
+
+.card-parent-3 {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  justify-content: center;
+  max-width: 1310px;
+}
+
+.card-parent-3 .card-3 {
+  background-color: #fff;
+  display: flex;
+  min-width: 395px;
+  min-height: 212px;
+  padding: 24px 15px;
+  align-items: flex-start;
+  gap: 24px;
 }
