@@ -1,0 +1,299 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar Section */
+
+.navbar-dekstop {
+  /* position: fixed; */
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 26px 96px;
+  /* background-color: #fff; */
+}
+
+.navbar-child {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  margin-bottom: 0 !important;
+}
+
+.logo-icon {
+  margin-top: 15px;
+  height: 39.1px;
+}
+
+ul {
+  gap: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 16px 8px;
+}
+
+.navbar {
+  display: flex;
+  text-align: center;
+}
+
+.button {
+  border-radius: 6px;
+  padding: 12px 32px;
+  background-color: #d92462;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+}
+
+/* Hero Section */
+
+.hero-section {
+  padding: 80px 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  margin-right: 250px;
+}
+
+.deskripsi {
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.judul {
+  margin-bottom: 16px;
+  font-size: 48px;
+  font-weight: 600;
+  color: #000;
+}
+
+/* Fitur Section */
+
+.fitur-section {
+  background-color: #fcfcfc;
+  padding: 64px 96px;
+}
+
+.heading-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-2 {
+  margin-right: 175px;
+}
+
+.label-1 {
+  position: relative;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 600;
+  color: #d92462;
+  margin-bottom: 12px;
+}
+
+label {
+  border-radius: 999px;
+  background-color: rgba(217, 36, 98, 0.12);
+  align-items: center;
+  justify-content: center;
+  padding: 4px 24px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.judul-2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #000;
+}
+
+.deskripsi-2 {
+  width: 1000px;
+  font-size: 18px;
+  color: #000;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.heading-1 {
+  margin-bottom: 80px;
+}
+
+.card-parent {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 32px;
+}
+
+.card-parent .card {
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+}
+
+.card-parent .card img {
+  width: 60px;
+  height: 60px;
+}
+
+.card-parent .card .text-card {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* Product Section */
+
+.product-section {
+  padding: 80px 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-2 {
+  text-align: left;
+  margin-left: 200px;
+}
+
+/* Fitur Section 2 */
+
+.fitur-section-1 {
+  padding: 80px 96px;
+  background-color: #fcfcfc;
+}
+
+.heading-4 {
+  display: flex;
+  text-align: left;
+  margin-right: 15px;
+}
+
+.heading-5 {
+  width: 1500px;
+  text-align: left;
+  margin-bottom: 80px;
+}
+
+.deskripsi-3 {
+  font-size: 18px;
+  color: #000;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.card-parent-1 {
+  padding: 80px 96px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 32px;
+  justify-content: center;
+}
+
+.card-parent-1 .card-1 {
+  padding: 24px 15px;
+  text-align: center;
+  align-items: center;
+  border: none;
+  background-color: #fff;
+  max-width: 150px;
+}
+
+.card-parent .card-1 img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 16px;
+}
+
+.card-parent .card-1 .text-card-1 {
+  /* margin-top: 10px; */
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.card-parent-2 {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  justify-content: center;
+  max-width: 1310px;
+}
+
+.card-parent-2 .card-2 {
+  background-color: #fff;
+  display: flex;
+  min-width: 395px;
+  min-height: 212px;
+  padding: 24px 15px;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.judul-3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.deskripsi-4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card-2 img {
+  width: 32px;
+  height: 32px;
+}
+
+/* produk-kami */
+
+.product-kami {
+  padding: 80px 96px;
+}
+
+.heading-6 {
+  display: flex;
+  text-align: left;
+  margin-right: 15px;
+  margin-bottom: 49px;
+}
+
+.judul-4 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-right: 100px;
+}
+
+.button-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  gap: 10px;
+  background-color: #d92462;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+}
