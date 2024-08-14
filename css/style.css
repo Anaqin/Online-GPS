@@ -41,6 +41,8 @@ li {
   color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 16px 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 .navbar {
@@ -55,6 +57,7 @@ li {
   color: #fff;
   border: none;
   font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Hero Section */
@@ -73,6 +76,8 @@ li {
 .deskripsi {
   font-size: 18px;
   margin-bottom: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 .judul {
@@ -80,6 +85,7 @@ li {
   font-size: 48px;
   font-weight: 600;
   color: #000;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Fitur Section */
@@ -122,6 +128,7 @@ label {
   font-size: 48px;
   font-weight: 600;
   color: #000;
+  font-family: "Poppins", sans-serif;
 }
 
 .deskripsi-2 {
@@ -130,6 +137,8 @@ label {
   color: #000;
   margin-top: 50px;
   display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 .heading-1 {
@@ -199,6 +208,8 @@ label {
   color: #000;
   margin-top: 50px;
   display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 .card-parent-1 {
@@ -239,6 +250,7 @@ label {
   gap: 32px;
   justify-content: center;
   max-width: 1310px;
+  margin-left: 80px;
 }
 
 .card-parent-2 .card-2 {
@@ -255,11 +267,13 @@ label {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
 }
 
 .deskripsi-4 {
   font-size: 16px;
   font-weight: 400;
+  font-family: "Poppins", sans-serif;
 }
 
 .card-2 img {
@@ -284,6 +298,7 @@ label {
   font-size: 48px;
   font-weight: 600;
   margin-right: 100px;
+  font-family: "Poppins", sans-serif;
 }
 
 .button-1 {
@@ -296,6 +311,8 @@ label {
   color: #fff;
   border: none;
   border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .card-parent-3 {
@@ -305,6 +322,7 @@ label {
   gap: 32px;
   justify-content: center;
   max-width: 1310px;
+  margin-left: 80px;
 }
 
 .card-parent-3 .card-3 {
@@ -333,4 +351,27 @@ label {
 .text-footer {
   padding: 37px 995px 83px 96px;
   color: #f0f5ff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 360px) {
+  .navbar-child {
+    display: none;
+  }
+
+  .hero-section {
+    padding: 40px 16px;
+  }
+
+  .gambar {
+    width: 307px;
+    height: auto;
+  }
+
+  .logo-icon {
+    padding: 10px 16px;
+    width: 104px;
+    height: 24px;
+  }
 }
